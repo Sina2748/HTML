@@ -4,5 +4,44 @@
     --color-background: #C4C4C4;
     --color-accent: #F1A501;
     --body-color: #5E6282;
-
 }  
+html {
+    font-size: 62.6%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;    
+    color: var(--body-color);
+    line-height: 1.5;
+    font-size: 1.8rem;
+
+
+}
+
+h1, h2, h3, h4 {
+    color: var(--color-primary);
+    margin-top: 0;
+    margin-bottom: 0.0rem;
+}
+
+h1 {
+    font-size: 8.4rem;    
+    font-weight: 800;
+
+}
+
+h2 {
+    font-size:5rem ;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p {
+    margin-top: 0;
+}
