@@ -1,47 +1,96 @@
 :root {
-    --color-primary: #181e4b;
-    --color-secondary: #DF6951;
-    --color-background: #C4C4C4;
-    --color-accent: #F1A501;
-    --body-color: #5E6282;
-}  
+  --color-primary: #181e4b;
+  --color-secondary: #df6951;
+  --color-background: #c4c4c4;
+  --color-accent: #f1a501;
+  --body-color: #5e6282;
+}
+
+/* typography */
+
 html {
-    font-size: 62.6%;
+  font-size: 62.6%;
 }
 
 body {
-    font-family: 'Inter', sans-serif;    
-    color: var(--body-color);
-    line-height: 1.5;
-    font-size: 1.8rem;
-
-
+  font-family: "Inter", sans-serif;
+  color: var(--body-color);
+  line-height: 1.5;
+  font-size: 1.8rem;
 }
 
-h1, h2, h3, h4 {
-    color: var(--color-primary);
-    margin-top: 0;
-    margin-bottom: 0.0rem;
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-primary);
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
 
 h1 {
-    font-size: 8.4rem;    
-    font-weight: 800;
-
+  font-size: 8.4rem;
+  font-weight: 800;
 }
 
 h2 {
-    font-size:5rem ;
+  font-size: 5rem;
 }
 
 h3 {
-    font-size: 3.2rem;
+  font-size: 3.2rem;
 }
 
 h4 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 p {
-    margin-top: 0;
+  margin-top: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  word-spacing: 20px;
+}
+
+/* Buttons  */
+
+.button {
+  background-color: var(--color-secondary);
+  border: 0;
+  border-radius: 8px;
+  padding: 2.4rem 8rem;
+}
+
+/* grid */
+
+.grid_container {
+}
+
+.grid__img_left {
+  display: grid;
+  grid-template-rows: 37rem;
+  grid-template-columns: 33% 67%;
+  border: 3px solid;
+}
+
+.grid__img_right {
+  display: grid;
+  grid-template-rows: 37rem;
+  grid-template-columns: 67% 33%;
+  border: 3px solid;
+}
+
+.grid {
+  color: #181e4b;
+}
+
+.grid__left {
+  background-color: red;
+}
+
+.grid__right {
+  background-color: #f1a501;
 }

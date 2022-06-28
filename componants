@@ -1,0 +1,14 @@
+<!-- btn -->
+<button class="button">My Projects</button>
+
+<!-- grid card -->
+<div class="grid__img_left">
+  <div class="grid grid__left">1</div>
+  <div class="grid grid__right">2</div>
+</div>
+<div class="grid__img_right">
+  <div class="grid grid__right">1</div>
+  <div class="grid grid__left">2</div>
+</div>
+
+<!-- hero -->
