@@ -12,3 +12,7 @@
 </div>
 
 <!-- hero -->
+<div class="grid_container">
+  <div class="grid__hero grid__hero__left">1</div>
+  <div class="grid__hero grid__hero__right">2</div>
+</div>

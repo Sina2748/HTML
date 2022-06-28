@@ -1,7 +1,7 @@
 :root {
   --color-primary: #181e4b;
   --color-secondary: #df6951;
-  --color-background: #c4c4c4;
+  --color-background: #eeeeee;
   --color-accent: #f1a501;
   --body-color: #5e6282;
 }
@@ -17,6 +17,7 @@ body {
   color: var(--body-color);
   line-height: 1.5;
   font-size: 1.8rem;
+  background-color: var(--color-background);
 }
 
 h1,
@@ -52,21 +53,36 @@ p {
 .title {
   text-transform: uppercase;
   color: var(--color-secondary);
-  word-spacing: 20px;
+  font-size: 2rem;
 }
 
 /* Buttons  */
 
 .button {
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent);
   border: 0;
-  border-radius: 8px;
+  border-radius: 24px;
   padding: 2.4rem 8rem;
 }
 
 /* grid */
 
 .grid_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid__hero {
+  background-color: var(--color-background);
+}
+
+.grid__hero__left {
+  background-color: var(--color-background);
+  padding-right: 4rem;
+}
+
+.grid__hero__right {
+  background-color: var(--color-background);
 }
 
 .grid__img_left {
@@ -93,4 +109,24 @@ p {
 
 .grid__right {
   background-color: #f1a501;
+}
+
+/* hero */
+
+.hero {
+  padding: 13rem;
+}
+
+.img__hero > img {
+  width: 45%;
+  position: absolute;
+  top: 1rem;
+  right: 10rem;
+}
+
+/* navigation */
+
+.nav {
+  padding: 0 13rem;
+  background-color: var(--color-background);
 }
