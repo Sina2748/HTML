@@ -16,3 +16,9 @@
   <div class="grid__hero grid__hero__left">1</div>
   <div class="grid__hero grid__hero__right">2</div>
 </div>
+
+
+<!-- icons -->
+<span class="material-symbols-outlined size-48 icon-container">
+  html
+  </span></div>

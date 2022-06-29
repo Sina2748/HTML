@@ -41,6 +41,7 @@ h2 {
 
 h3 {
   font-size: 3.2rem;
+  color: var(--body-color);
 }
 
 h4 {
@@ -169,4 +170,61 @@ p {
 
 .nav {
   background-color: var(--color-background);
+}
+
+/* icons */
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
+}
+
+span.size-48 {
+  font-size: 48px;
+  font-variation-settings: "OPSZ" 80;
+}
+
+span.icon-container {
+  color: var(--body-color);
+  border: solid;
+  border-radius: 15%;
+  height: 80px;
+  width: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media */
+.tools__heading {
+  padding-top: 2rem;
+}
+
+.media {
+  display: flex;
+}
+
+.media__list {
+  line-height: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: square;
+}
+
+.media__list-item {
+  margin: 0 2rem;
+  padding: 0;
+  line-height: 2rem;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.grid3x2 {
+  margin: 2rem 0 10rem;
+
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
