@@ -61,6 +61,56 @@ p {
 
 /* hero */
 
+/* animation */
+.container1 {
+  height: 2rem;
+  position: relative;
+  /* display: inline-block; */
+  /* font-family: Arial; */
+}
+
+.block-content1 {
+  position: absolute;
+  /* font-size: 30px; */
+  /* height: auto; */
+  width: 320px;
+  opacity: 0;
+  /* padding: 5px; */
+}
+
+.block-overlay1 {
+  position: absolute;
+  width: 0%;
+  opacity: 1;
+  background-color: #df6951;
+  /* box-shadow: 4px 4px 10px grey; */
+}
+
+.container2 {
+  height: 7rem;
+  position: relative;
+  /* display: inline-block; */
+  /* font-family: Arial; */
+}
+
+.block-content2 {
+  position: absolute;
+  /* font-size: 30px; */
+  height: 70px;
+  width: 330px;
+  opacity: 0;
+  /* padding: 5px; */
+}
+
+.block-overlay2 {
+  position: absolute;
+  width: 0%;
+  opacity: 1;
+  background-color: #181e4b;
+  /* box-shadow: 4px 4px 10px grey; */
+}
+/* animation ends */
+
 .title {
   white-space: nowrap;
   text-transform: uppercase;
