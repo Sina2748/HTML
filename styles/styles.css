@@ -86,6 +86,8 @@ p {
   /* box-shadow: 4px 4px 10px grey; */
 }
 
+/* 2 */
+
 .container2 {
   height: 7rem;
   position: relative;
@@ -109,6 +111,28 @@ p {
   background-color: #181e4b;
   /* box-shadow: 4px 4px 10px grey; */
 }
+
+/* 3 */
+.container3 {
+  /* height: 7rem; */
+  /* position: relative; */
+}
+
+.block-content3 {
+  /* position: absolute; */
+  /* height: 70px; */
+  /* width: 330px; */
+  opacity: 0;
+}
+
+.block-overlay3 {
+  /* position: absolute; */
+  /* height: 0%; */
+  /* opacity: 1; */
+  /* background-color: var(--body-color); */
+  /* box-shadow: 4px 4px 10px grey; */
+}
+
 /* animation ends */
 
 .title {
@@ -136,6 +160,7 @@ p {
 
 .grid__hero__top {
   width: 100%;
+  opacity: 0;
 }
 
 .hero {
@@ -149,6 +174,11 @@ p {
 }
 
 /* Buttons  */
+.btnWrap {
+  opacity: 0;
+  margin-left: 5rem;
+}
+
 .custom-btn {
   width: 190px;
   height: 50px;
