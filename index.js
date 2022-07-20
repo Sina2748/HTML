@@ -14,7 +14,7 @@ const blockReveal1 = (solid, content, container) => {
     
     var tl1 = anime.timeline({
         easing: 'easeOutExpo',
-        duration: 700
+        duration: 500
       });
     tl1
       .add({
@@ -54,7 +54,7 @@ const blockReveal2 = (solid2, content2, container2) => {
     
     var tl2 = anime.timeline({
         easing: 'easeOutExpo',
-        duration: 650
+        duration: 450
       });
     tl2
       .add({
@@ -94,31 +94,31 @@ const blockReveal3 = ( content3, btn ) => {
     tl3
         .add({
           targets: content3,
-          // delay: 100,
+          delay: 200,
           opacity: 1,
+        });
+
+   
+
+        var tl4 = anime.timeline({
+          easing: 'easeOutCubic',
+          duration: 750
         })
         .add({        
           targets: btn,
           // delay: 100,
           translateX: -5 + "rem",
           opacity: 1   
-       })
-
-   
-
-        var tl4 = anime.timeline({
-          easing: 'easeOutCubic',
-          duration: 1500
-        });
+       });
 
 
       tl4
  
           .add({
             targets: img,
-            delay: 1000,
+            delay: 000,
             opacity: 1,
-            translateY: -5 + "rem",          
+            translateY: -2 + "rem",          
           });
     
     }
