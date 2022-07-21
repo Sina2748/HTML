@@ -300,6 +300,12 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .grid__hero__bottom {
+    margin-left: 7rem;
+  }
+}
+
 /* card */
 
 .card {
@@ -407,8 +413,12 @@ p {
 }
 
 /* Style the tab */
+.tools {
+  margin: 0 2rem;
+}
+
 .tabs {
-  margin: 2rem;
+  margin: 2rem 2rem;
   box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -462,6 +472,16 @@ p {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+@media screen and (min-width: 650px) {
+  .tools {
+    margin: 0 10rem;
+  }
+
+  .tabs {
+    margin: 2rem 10rem;
+  }
 }
 
 /* icons */
@@ -519,10 +539,6 @@ span.icon-container {
   gap: 50px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.tools {
-  margin: 3rem;
 }
 
 @media screen and (max-width: 650px) {
