@@ -9,7 +9,15 @@
 /* typography */
 
 html {
+  overflow-x: hidden;
   font-size: 62.6%;
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    overflow-x: scroll;
+    font-size: 62.6%;
+  }
 }
 
 body {
@@ -419,8 +427,8 @@ p {
 
 @media screen and (min-width: 650px) {
   .card {
-    margin-right: 4vw;
-    margin-left: 4vw;
+    margin-right: 4rem;
+    margin-left: 4rem;
   }
 
   .grid__text {
