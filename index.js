@@ -1,3 +1,42 @@
+// background animation
+const background = document.querySelector('.background')
+  for(var i = 0; i <= 100; i++){
+    const blocks = document.createElement('div');
+    blocks.classList.add('block');
+    background.appendChild(blocks);
+  }
+
+  function animationBlocks(){
+    anime({
+      targets: '.block',
+      translateX: function(){
+        return anime.random(-700,700);
+      },
+      translateY: function(){
+        return anime.random(-500,0);
+      },
+      scale: function(){
+        return anime.random(1,1.5);
+      },
+      easing: 'easeInOutQuad',
+      duration: 3000,
+      delay: anime.stagger(10),
+      endDelay: 5000,
+      
+      complete:animationBlocks,
+
+
+    })
+  }
+
+  animationBlocks();
+
+
+
+ 
+
+//background animation end
+
 let solid = document.querySelector('.block-overlay1');
 let content = document.querySelector('.block-content1');
 let container = document.querySelector('.container1');
