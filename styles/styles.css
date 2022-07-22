@@ -15,8 +15,7 @@ html {
 
 @media screen and (max-width: 350px) {
   html {
-    overflow-x: scroll;
-    font-size: 62.6%;
+    overflow-x: none;
   }
 }
 
@@ -95,7 +94,7 @@ p {
 .background {
   z-index: -5;
   position: fixed;
-  top: 70%;
+  top: 60%;
   height: 100%;
   width: 100%;
   display: flex;
@@ -109,6 +108,12 @@ p {
   height: 100px;
   background-color: var(--color-background);
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 650px) {
+  .background {
+    display: none;
+  }
 }
 
 /* background ends */
