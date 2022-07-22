@@ -54,6 +54,7 @@ p {
 }
 
 .glass {
+  border-radius: 1rem;
   background: linear-gradient(
     1350deg,
     rgba(255, 255, 255, 0.1),
@@ -62,6 +63,7 @@ p {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(5px);
   border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .margin {
@@ -474,19 +476,25 @@ p {
 }
 
 /* Style the tab */
+.tabhight {
+  height: 60rem;
+}
+
 .tools {
   margin: 0 2rem;
 }
 
 .tabs {
   margin: 2rem 2rem;
-  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .tab {
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
   overflow: hidden;
   border: 0px solid #ccc;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
 }
 
 .tablinks {
