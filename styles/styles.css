@@ -9,7 +9,8 @@
 /* typography */
 
 html {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  max-width: 100%;
   font-size: 62.6%;
 }
 
